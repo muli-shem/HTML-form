@@ -1,0 +1,19 @@
+*{
+    font-family: serif; font-size: 15px;}
+    .div{border-radius: 20px;
+        background-color: rgb(178, 185, 217);
+    margin-left:25%;margin-right: 25%;
+    margin-top: 20px;
+     height:100vh;width: 50%; margin-bottom: 25px;
+    text-align: block; padding:25px; display:block}
+    body{
+    background-color: rgb(184, 213, 245);}
+    button,textarea,label{border: none; border-radius:5px;
+        margin:10px;}
+    #name{border-radius: 5px; border:none;
+        margin:10px;}
+    #tel,#m, #email{margin:10px; border-radius: 5px;border: none;}
+    #tel{
+        margin-left: 20px;padding-left: 10px;}
+        h1{
+        font-size: large;}

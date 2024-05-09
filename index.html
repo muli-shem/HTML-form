@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+   <div class="div">
+    <header>
+      <div>
+        <h1>
+          Create account<br>
+        </h1>
+      </div>
+
+    </header>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required minlength="3" required maxlength="50" placeholder="Enter 
+    your name" required><br>
+    <label for="name">Email:</label>
+    <input id="email" type="email" required minlength="8" placeholder="Enter your 
+    Email adress" required><br>
+    <label for="phone">Tel:</label>
+    <input type="tel" id="tel" placeholder="Enter phone number" required minlength="10" required maxlength="13"><br>
+   <div id="m">
+  Mode of Communication
+    <select name="" >
+      <option value="watsap">
+        Whatssap
+       </option>
+       <option>Email</option>
+       <option>Others</option>
+    </select><br>
+   </div><p id="g">
+    Gender<br></p>
+    <input type="radio"  name="gender" 
+    style="margin:10px;" required>
+    <label for="Gender">Male:</label><br>
+    <input type="radio" name="gender"
+     style="margin:10px;" required>
+    <label for="Gender" >Female:</label><br>
+    Feedback<br>
+    <textarea id="massage" name="massage" rows="4" 
+    cols="30" > 
+    </textarea><br>
+    <button>submit</button>
+
+  </form>
+</body>
+   </div>
+</html>
